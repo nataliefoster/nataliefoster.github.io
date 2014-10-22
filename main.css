@@ -1,0 +1,28 @@
+<style>
+html{
+	background: url("beach.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+
+h1{
+	text-align: left;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	
+
+}
+p{
+	text-align: left;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	
+}
+
+.fixed {
+	position: fixed; top: 10px; right: 50px;
+	font-size: 24px;
+		
+	
+}
+</style>
