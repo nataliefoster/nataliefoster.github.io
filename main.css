@@ -1,11 +1,4 @@
 <style>
-html{
-	background: url("beach.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover
-}
 
 h1{
 	text-align: left;
@@ -19,10 +12,28 @@ p{
 	
 }
 
-.fixed {
-	position: fixed; top: 10px; right: 50px;
-	font-size: 24px;
-		
-	
+
+header {
+	position: fixed; top:0px; right:0px;
+	height: 100%;
+  	background:#7f7f7f;
+  	background:rgba(255,255,255,0.5);
+  	font-size: 24px;
+	color: black;
+	padding: 30px;
 }
+
+/*.trans p {
+	position: fixed; top: 10px; right: 50px;
+	
+
+}
+*/
+
+
+
+
+
+
+
 </style>
