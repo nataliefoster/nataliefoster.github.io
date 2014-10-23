@@ -43,7 +43,7 @@ a:hover {
 
 @media all and (max-width:500px) {
 .icon img{
-	max-width: 15%;
+	max-width: 20%;
 	vertical-align: middle;
 	margin-right: 2%
 }
