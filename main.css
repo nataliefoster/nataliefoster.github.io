@@ -18,9 +18,8 @@ a:hover {
 
 
 .bio_bar{
-	position: fixed; top:0px; left:0px;
 	width: 40%;
-	margin-left: 7.5%;
+	margin-left: 5%;
 	margin-top: 1.5%;
 	color: black;
 	text-align: left;
@@ -71,6 +70,6 @@ a:hover {
 body{
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 24px;
-
+}
 
 
