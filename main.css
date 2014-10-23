@@ -1,3 +1,7 @@
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+}
 
 .bio_bar{
 	width: 40%;
