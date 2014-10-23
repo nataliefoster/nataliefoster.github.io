@@ -30,8 +30,19 @@ a:hover {
   	*/ 
 }
 
+@media all and (max-width:1000px) {
+.bio_bar{
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 1.5%;
+	color: black;
+	text-align: left;
+
+	}
+}
+
 .icon img{
-	max-width: 60px;
+	max-width: 10%;
 	vertical-align: middle;
 	margin-right: 2%
 
@@ -40,32 +51,11 @@ a:hover {
 .icon{
 	display: inline-block;
 	width:100%;
-	height: 60px;
+	height: 10%;
 	margin-bottom: 1.5%;
 	color:black;
-
-
-	
 }
 
-
-
-/*.icon{
-	max-width: 60px;
-	float: left;
-	margin: 0 1.5%;
-	vertical-align: center:;
-}
-
-.icon_text{
-	float:left;
-	vertical-align: text-top;:;
-
-}
-
-
-
-*/
 
 body{
 	font-family: 'Helvetica', 'Arial', sans-serif;
