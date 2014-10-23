@@ -1,40 +1,76 @@
-<style>
 
 
+a:link{
+	color:black;
+	text-decoration: none
+}
 
-h1{
+a:visited {
+	text-decoration: none;
+	color:black;
+	text-decoration: none
+}
+
+
+a:hover {
+  color: gray;
+}
+
+
+.bio_bar{
+	position: fixed; top:0px; left:0px;
+	width: 40%;
+	margin-left: 7.5%;
+	margin-top: 1.5%;
+	color: black;
 	text-align: left;
-	font-family: 'Helvetica', 'Arial', sans-serif;
-	color: white;
-
-}
-p{
-	text-align: left;
-	font-family: 'Helvetica', 'Arial', sans-serif;
-	color: white;
+	/* 	If using a background image
+	height: 100%; 	
+	background:#7f7f7f;
+  	background:rgba(255,255,255,0.6);
+  	*/ 
 }
 
-
-header {
-	position: fixed; top:0px; right:0px;
-	height: 100%;
-  	background:#7f7f7f;
-  	background:rgba(0,0,0,0.5);
-  	font-size: 24px;
-	padding: 30px;
-	font-family: 'Helvetica', 'Arial', sans-serif;
-	color: white;
-
+.icon img{
+	max-width: 60px;
+	vertical-align: middle;
+	margin-right: 2%
 
 }
 
-/*.trans p {
-	position: fixed; top: 10px; right: 50px;
+.icon{
+	display: inline-block;
+	width:100%;
+	height: 60px;
+	margin-bottom: 1.5%;
+	color:black;
+
+
 	
+}
+
+
+
+/*.icon{
+	max-width: 60px;
+	float: left;
+	margin: 0 1.5%;
+	vertical-align: center:;
+}
+
+.icon_text{
+	float:left;
+	vertical-align: text-top;:;
 
 }
+
+
+
 */
 
+body{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 24px;
 
 
-</style>
+
