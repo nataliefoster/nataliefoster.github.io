@@ -5,10 +5,6 @@
   <title>matt ewing</title>
   <link rel="stylesheet" href="main.css">
   <link href='http://fonts.googleapis.com/css?family=Varela|Varela+Round' rel='stylesheet' type='text/css'>
-  
-  <link rel="stylesheet" href="jquery.wordrotator.css">
-  <link rel="stylesheet" href="animate.css">
-  <script src="jquery.wordrotator.js"></script>
 
   <style>
 /*Sets background image for main page 
@@ -25,13 +21,19 @@
 </head>
 
 <body>
+	<!--short bio -->
 	<div class="bio_bar">
 	
 		<h1>Hi, I'm Matt Ewing</h1>
-		<p>Serial do-gooder in startup land.</p>
+		<p>Do-gooder in startup land.</p>
 		<p>Founded <span class="bio_link"><a href="http://scootnetworks.com">Scoot Networks</a></span> and <span class="bio_link"><a href="http://newmediaventures.org"> 
-			New Media Ventures</a></span>. Former National Field Director at <a href="http://moveon.org">MoveOn.org.</a></p>
-		<p><strong>I love to build <span id="myWords"></span> that matters.</strong></p>
+			New Media Ventures</a></span>. Former National Field Director at <span class="bio_link"><a href="http://moveon.org">MoveOn.org.</a></span></p>
+		<p><strong>I love to build stuff that matters.</strong></p>
+	
+		<p>&nbsp;</p>
+
+		<!--icons-->
+		
 		<div class ="icon">	
 		<a href="http://mattewing.tumblr.com/">
 		<img src="assets/pencil.png" alt="blog"> 
@@ -39,14 +41,14 @@
 		</div>
 		
 		<div class ="icon">
-		<a href="/background">
-		<img src="assets/background.png" alt="background"> 
+		<a href="about.html">
+		<img src="assets/background.png" alt="about"> 
 		About
 		</a>
 		</div>
 	
 		<div class ="icon">
-		<a href="/projects">
+		<a href="projects.html">
 		<img src="assets/wrench2.png" alt="projects">
 		Projects
 		</a>
@@ -62,13 +64,6 @@
 
 	</div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $("#myWords").wordsrotator({
-            words: ['apple', 'apricot', 'avocado']
-        });
-    });
-</script>
+
 </body>
 </html>
