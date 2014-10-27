@@ -1,4 +1,5 @@
 
+/* Side bar with icons and bio */
 .bio_bar{
 	width: 50%;
 	margin-left: 5%;
@@ -17,7 +18,6 @@
 	width: 80%;
 	margin-left: 5%;
 	margin-top: 1.5%;
-	
 	text-align: left;
 
 	}
@@ -50,9 +50,10 @@
 	height: 25%;
 	margin-bottom: 5%;
 	
+}
+}
+/* End of bio bar section */
 
-}
-}
 
 
 
