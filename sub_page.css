@@ -28,6 +28,35 @@ nav .icon{
 	height: 20%;
 	margin-bottom: 7.5%
 }
+
+/* Nav bar Mobile*/
+@media all and (max-width: 500px) {
+	.nav_text{
+		display: none;
+	}
+
+	.nav_wrapper{
+		width:15%;
+	}
+
+	nav .icon img{
+		max-width: 100%;
+	}
+
+	nav .icon{
+		width: 80%;
+		height: 80%;
+		margin-bottom:25%;
+	}
+
+	.container{
+		color:green;
+	}
+
+}
+
+
+
 /* End of Nav bar*/
 
 /* Main content */
