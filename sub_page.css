@@ -41,6 +41,7 @@ nav .icon{
 
 	nav .icon img{
 		max-width: 100%;
+		
 	}
 
 	nav .icon{
@@ -50,7 +51,7 @@ nav .icon{
 	}
 
 	.container{
-		color:green;
+		color:red;
 	}
 
 }
