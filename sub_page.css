@@ -2,18 +2,16 @@
 .nav_wrapper{
 	display: inline-block;
 	height: 100%;
+	min-height: 100%;
 	width:20%;
-
+	vertical-align: top;
 	margin-left: 5%;
 }
 
 nav{
 	margin-top: 0%;
 	width:100%;
-
 	text-align: left;
-
-
 }
 
 nav .icon img{
@@ -29,47 +27,18 @@ nav .icon{
 	margin-bottom: 7.5%
 }
 
-/* Nav bar Mobile*/
-@media all and (max-width: 600px) {
-	.nav_text{
-		display: none;
-	}
 
-	.nav_wrapper{
-		width:15%;
-		height: 100%;
-	}
-
-	nav .icon img{
-		max-width: 100%;
-		
-	}
-
-	nav .icon{
-		width: 80%;
-		height: 80%;
-		margin-bottom:25%;
-	}
-
-	.container{
-		
-		height: 100%;
-	}
-
-
-}
-
-
-
-/* End of Nav bar*/
 
 /* Main content */
 .container {
 	display: inline-block;
 	width: 70%;
 	height: 100%;
-	vertical-align: top;
-	border-left: 2px solid black;
+	min-height: 100%;
+	border-left: 1px solid black;
+	top: 0;
+    bottom: 0;
+
 
 }
 
@@ -83,12 +52,59 @@ nav .icon{
 	margin-left: 5%;
 }
 
+/* Mobile*/
+@media all and (max-width: 600px) {
+	.nav_text{
+		display: none;
+	}
+
+	.nav_wrapper{
+		display: inline-block;
+		width:15%;
+		height: 100%;
+		min-height: 100%
+	}
+
+	nav .icon img{
+		max-width: 100%;
+		
+	}
+
+	nav .icon{
+		width: 80%;
+		height: 80%;
+		margin-bottom:25%;
+	}
+
+	.container{	
+		height: 100%;
+		min-height: 100%;
+		display: inline-block;
+		
+	}
+	h1{
+		font-size: 30px;
+		color: green;
+	}
+
+}
+
+
+
+/* End of Nav bar*/
+
+
+
 
 /* End of main content */
 
-body, html{
-	height: 100%;
+
+html, body{
+height: 100%;
+min-height: 100%;
+
 }
+
 
 body, a{
 	
@@ -103,5 +119,5 @@ body, a{
 h1{
 	font-family: 'Varela Round', sans-serif;
 	font-weight: 800;
-	font-size: 30px;
+	font-size: 60px;
 }
