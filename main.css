@@ -1,23 +1,22 @@
-
 /* Side bar with icons and bio */
 .bio_bar{
 	width: 20%;
-	buffer: 5%
+	padding: 5%;
 	margin-left: 0%;
 	margin-top: 0%;
 	
 	text-align: left;
 	height: 100%; 	
 	background:#7f7f7f;
-  	background:rgba(255,255,255,0.6);
-  	float: right
+  	background:rgba(0,0,0,0.6);
+  	float: left;
   	top:0
-  	right:0; 
+  	left:0; 
 }
 
 @media all and (max-width: 1000px) {
 .bio_bar{
-	width: 80%;
+	width: 30%;
 	margin-left: 5%;
 	margin-top: 1.5%;
 	text-align: left;
@@ -68,8 +67,8 @@ h1{
 
 body, a{
 	
-	color: black;
-	background: white;
+	color: white;
+	
 	font-family: 'Varela', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
