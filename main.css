@@ -1,16 +1,18 @@
 
 /* Side bar with icons and bio */
 .bio_bar{
-	width: 40%;
-	margin-left: 5%;
-	margin-top: 1.5%;
+	width: 20%;
+	buffer: 5%
+	margin-left: 0%;
+	margin-top: 0%;
 	
 	text-align: left;
-	/* 	If using a background image
 	height: 100%; 	
 	background:#7f7f7f;
   	background:rgba(255,255,255,0.6);
-  	*/ 
+  	float: right
+  	top:0
+  	right:0; 
 }
 
 @media all and (max-width: 1000px) {
