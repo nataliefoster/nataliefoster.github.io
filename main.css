@@ -39,6 +39,8 @@
 
 
 @media all and (max-width: 500px) {
+.bio_bar{
+	width: 100%;
 .icon img{
 	max-width: 25%;
 	vertical-align: middle;
